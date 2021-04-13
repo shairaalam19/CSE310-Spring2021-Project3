@@ -1,0 +1,17 @@
+Query: find 1 100 1
+Insert vertex 1, key=      0.0000
+Delete vertex 1, key=      0.0000
+Insert vertex 2, key=     10.0000
+Insert vertex 4, key=      5.0000
+Delete vertex 4, key=      5.0000
+Decrease key of vertex 2, from      10.0000 to       8.0000
+Insert vertex 3, key=     14.0000
+Insert vertex 5, key=      7.0000
+Delete vertex 5, key=      7.0000
+Decrease key of vertex 3, from      14.0000 to      13.0000
+Delete vertex 2, key=      8.0000
+Decrease key of vertex 3, from      13.0000 to       9.0000
+Delete vertex 3, key=      9.0000
+Query: write path 1 100
+Error: invalid source destination pair
+Query: stop

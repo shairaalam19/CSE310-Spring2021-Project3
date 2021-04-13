@@ -1,0 +1,5 @@
+find 2 -1 0
+write path 2 1
+write path 2 5
+write path 1 2
+stop

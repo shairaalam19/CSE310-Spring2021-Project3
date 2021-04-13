@@ -1,0 +1,43 @@
+Query: find 1 100 1
+Insert vertex 1, key=      0.0000
+Delete vertex 1, key=      0.0000
+Insert vertex 2, key=     10.0000
+Insert vertex 4, key=      5.0000
+Delete vertex 4, key=      5.0000
+Decrease key of vertex 2, from      10.0000 to       8.0000
+Insert vertex 3, key=     14.0000
+Insert vertex 5, key=      7.0000
+Delete vertex 5, key=      7.0000
+Decrease key of vertex 3, from      14.0000 to      13.0000
+Delete vertex 2, key=      8.0000
+Decrease key of vertex 3, from      13.0000 to       9.0000
+Delete vertex 3, key=      9.0000
+Query: write path 1 3
+Shortest path: <1, 4, 2, 3>
+The path weight is:       9.0000
+Query: write path 1 6
+No 1-6 path exists.
+Query: write path 8 3
+Error: invalid source destination pair
+Query: find 8 -1 1
+Insert vertex 8, key=      0.0000
+Delete vertex 8, key=      0.0000
+Insert vertex 6, key=      1.0000
+Delete vertex 6, key=      1.0000
+Insert vertex 7, key=      6.0000
+Insert vertex 3, key=      8.0000
+Delete vertex 7, key=      6.0000
+Delete vertex 3, key=      8.0000
+Insert vertex 5, key=     12.0000
+Delete vertex 5, key=     12.0000
+Insert vertex 1, key=     19.0000
+Delete vertex 1, key=     19.0000
+Insert vertex 2, key=     29.0000
+Insert vertex 4, key=     24.0000
+Delete vertex 4, key=     24.0000
+Decrease key of vertex 2, from      29.0000 to      27.0000
+Delete vertex 2, key=     27.0000
+Query: write path 8 1
+Shortest path: <8, 6, 3, 5, 1>
+The path weight is:      19.0000
+Query: stop

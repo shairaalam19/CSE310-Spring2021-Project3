@@ -1,0 +1,6 @@
+find 1 -1 0
+write path 1 100
+write path 1 150
+find 4 -1 0
+write path 4 20
+stop

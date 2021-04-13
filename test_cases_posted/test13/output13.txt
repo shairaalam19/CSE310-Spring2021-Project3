@@ -1,0 +1,5 @@
+Query: find 20 -1 0
+Query: write path 20 1
+Shortest path: <20, 18, 13, 11, 10, 9, 8, 2, 1>
+The path weight is:      60.5849
+Query: stop
